@@ -1,4 +1,4 @@
-package aptiprograms;
+package aptiprograms.starpattrans;
 
 public class ReverseRightAngle {
 

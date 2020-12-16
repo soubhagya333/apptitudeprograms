@@ -1,21 +1,21 @@
-package aptiprograms;
+package aptiprograms.starpattrans;
 
-public class ReverseLeftAngle {
+public class LeftAngle {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int numOfRows = 5;
+		int num = 4;
 
-		for (int i = 0; i < numOfRows; i++) {
-			for (int j = 0; j < numOfRows; j++) {
-				if (i+j<numOfRows)
+		for (int i = 0; i <= num; i++) {
+			for (int j = 0; j <= num; j++) {
+				if (i + j >= num)
 					System.out.print("*");
 				else
 					System.out.print("  ");
 			}
 			System.out.println();
 		}
-	}
 
 	}
 
+}
